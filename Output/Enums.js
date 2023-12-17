@@ -6,18 +6,18 @@
 //* In TypeScript, when constants are not explicitly assigned numeric values, they are automatically assigned increment numeric values starting from 0. The default numeric value for the first enum constant is 0, and subsequent enum constants receive values incremented by 1.
 var Roles;
 (function (Roles) {
-  Roles["user"] = "user";
-  Roles["admin"] = "admin";
+    Roles["user"] = "user";
+    Roles["admin"] = "admin";
 })(Roles || (Roles = {}));
 const user1 = {
-  username: "Devendra",
-  password: "*8*9*9*8*9",
-  role: Roles.admin,
+    username: "Devendra",
+    password: "*8*9*9*8*9",
+    role: Roles.admin
 };
 const user2 = {
-  username: "John Doe",
-  password: "**********",
-  role: Roles.user,
+    username: "John Doe",
+    password: "**********",
+    role: Roles.user
 };
 console.log(user1);
 console.log(user2);

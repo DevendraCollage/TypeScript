@@ -35,7 +35,7 @@ const user = { name: "Devendra", age: 22 };
 const myLoc = { city: "Rajkot", country: "India" };
 // Define function
 const createUserProfile = (user, myLoc) => {
-    return Object.assign(Object.assign({}, user), myLoc);
+    return { ...user, ...myLoc };
 };
 // Call function
 const myCompleteInfo = createUserProfile(user, myLoc);

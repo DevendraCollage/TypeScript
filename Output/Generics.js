@@ -8,9 +8,9 @@
 // const stringResult = logAndReturn("Hello Generics!");
 // console.log(numberResult);
 // console.log(stringResult);
-// Generic function to log and return an input value
+// Generic function to log and return an input value 
 function logAndReturn(value) {
-  return value;
+    return value;
 }
 // Using the generic function with different types
 const numberResult = logAndReturn(42); //? Then this will type inference automatically
@@ -27,10 +27,10 @@ console.log(stringResult);
 // const result1 = add(5,10);
 // console.log(result1); //? Output: 15
 // const result2 = add("Hello","World");
-// console.log(result2); //? Output: HelloWorld
+// console.log(result2); //? Output: HelloWorld 
 //! You need to code the same using the Generics types.
 function add(a) {
-  return a;
+    return a;
 }
 const result1 = add(10 + 20);
 console.log(result1); //? Output: 30

@@ -16,7 +16,7 @@ class PersonData {
     age:number;
     hobbies:string[]; //! This is an array of an string
 
-    constructor(name:string,age:number,hobbies:string[]){ //! Constructor of the class
+    constructor(name:string,age:number,hobbies:string[]){ //! Constructor of the class to assign the property of the class when object created
         this.name = name;
         this.age = age;
         this.hobbies = hobbies;
@@ -25,7 +25,7 @@ class PersonData {
 
 //! Create Object of an Class
 const personData1:PersonData = new PersonData("Dev",22,["Cricket","Reading","Programming","Learn New Things"]); //? Object-1 and Assign data into the Constructor
-console.log(personData1);
+console.log(personData1); 
 
 const personData2:PersonData = new PersonData("Divine",22,["Cricket","Reading","Programming","Learn New Things"]); //? Object-2 and Assign data into the Constructor
 console.log(personData2);
